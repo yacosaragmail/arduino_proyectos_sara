@@ -19,7 +19,7 @@ try:
         baudrate=VELOCIDAD_BAUDIOS,
         timeout=1 # Tiempo de espera para la lectura
     )
-    
+    # hecho por david arriola
     # 🌟 LIMPIEZA DE BUFFER: Descartar datos viejos o incompletos
     ser.flushInput() 
     
